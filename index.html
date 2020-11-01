@@ -1,0 +1,755 @@
+<!DOCTYPE HTML>
+<!--
+	Intensify by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Intensify by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<nav class="left">
+					<a href="#menu"><span>Menu</span></a>
+				</nav>
+				<a href="index.html" class="logo">Fintech</a>
+				<nav class="right">
+					<a href="#" class="button alt">Log in</a>
+				</nav>
+			</header>
+
+		<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Generic</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+				<ul class="actions vertical">
+					<li><a href="#" class="button fit">Login</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+		<section id="banner">
+			<div class="container">
+  				<div class="row">
+    				<div class="col">
+    				</div>
+    				<div class="col-6">
+      					<div class="content">
+							<h1>保險查詢</h1>
+								<p>尋找最值得信賴的業務員</p>
+								<div class="row search-form">
+          <div class="col-sm-10">
+            <form id="home_search_form" class="form-horizontal">
+              <div class="form-group form-inline keyword-search">
+                <input type="text" class="form-control" id="search_keyword" placeholder="請輸入街道、社區、學校...關鍵字開始搜尋">
+                <div class="association" style="display:none" id="search_keyword_auto"></div>
+              </div>
+              <div class="form-group form-inline custom-search">
+                <div class="row custom-search-form">
+                  <div class="col-sm-5 counties" id="search_cityarea_btn"><a href="#" class="btn" role="button"> <span class="label-text">宜蘭縣</span> <span class="caret"></span></a></div>
+                  <div class="col-sm-3 types" id="search_type_btn"><a href="#" class="btn" role="button"> <span class="label-text">型式</span> <span class="caret"></span></a></div>
+                  <div class="col-sm-4 price" id="search_price_btn"><a href="#" class="btn" role="button"> <span class="label-text">售價</span> <span class="caret"></span></a></div>
+                  <!--縣市區域-->
+                  <div id="search_cityarea" class="search-counties" title="search-counties" style="display: none;" default-cid="3">
+                    <div class="custom-search-content slick-initialized slick-slider" title="counties">
+                      <div aria-live="polite" class="slick-list" style="height: 0px;"><div class="slick-track" role="listbox" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);"><div class="search-city slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" style="width: 0px;">
+                        <dl class="clearfix">
+                                                      <dd class="part">
+                              <dl class="clearfix">
+                                <dt>北部</dt>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="0" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>台北市</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="1" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>基隆市</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="2" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>新北市</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="4" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>桃園市</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="5" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>新竹市</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="6" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>新竹縣</a></dd>
+                                                              </dl>
+                            </dd>
+                                                      <dd class="part">
+                              <dl class="clearfix">
+                                <dt>中部</dt>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="7" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>苗栗縣</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="8" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>台中市</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="9" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>彰化縣</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="10" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>南投縣</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="11" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>雲林縣</a></dd>
+                                                              </dl>
+                            </dd>
+                                                      <dd class="part">
+                              <dl class="clearfix">
+                                <dt>南部</dt>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="12" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>嘉義市</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="13" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>嘉義縣</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="14" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>台南市</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="15" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>高雄市</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="17" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>屏東縣</a></dd>
+                                                              </dl>
+                            </dd>
+                                                      <dd class="part">
+                              <dl class="clearfix">
+                                <dt>東部</dt>
+                                                                  <dd><a class="btn active" type="checkbox" data-cid="3" tabindex="0"><i class="fa  fa-fw fa-dot-circle-o"></i>宜蘭縣</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="19" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>花蓮縣</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="18" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>台東縣</a></dd>
+                                                              </dl>
+                            </dd>
+                                                      <dd class="part">
+                              <dl class="clearfix">
+                                <dt>離島</dt>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="16" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>澎湖縣</a></dd>
+                                                                  <dd><a class="btn" type="checkbox" data-cid="20" tabindex="0"><i class="fa  fa-circle-thin fa-fw"></i>金門連江</a></dd>
+                                                              </dl>
+                            </dd>
+                                                  </dl>
+                      </div><div class="search-area slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" style="width: 0px;">
+                        <div class="row">
+                          <div class="col-xs-1"><a class="btn go-back" tabindex="-1"><i class="fa fa-chevron-left fa-2x"></i><span>回縣市選擇</span></a></div>
+                          <div class="col-xs-11">
+                                                          <dl class="clearfix" data-cid="0" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="100" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>中正區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="103" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大同區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="104" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>中山區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="105" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>松山區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="106" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大安區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="108" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>萬華區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="110" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>信義區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="111" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>士林區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="112" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>北投區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="114" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>內湖區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="115" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>南港區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="116" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>文山區</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="1" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="200" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>仁愛區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="201" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>信義區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="202" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>中正區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="203" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>中山區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="204" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>安樂區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="205" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>暖暖區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="206" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>七堵區</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="2" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="207" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>萬里區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="208" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>金山區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="220" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>板橋區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="221" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>汐止區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="222" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>深坑區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="223" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>石碇區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="224" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>瑞芳區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="226" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>平溪區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="227" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>雙溪區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="228" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>貢寮區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="231" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新店區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="232" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>坪林區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="233" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>烏來區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="234" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>永和區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="235" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>中和區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="236" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>土城區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="237" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>三峽區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="238" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>樹林區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="239" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>鶯歌區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="241" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>三重區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="242" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新莊區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="243" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>泰山區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="244" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>林口區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="247" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>蘆洲區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="248" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>五股區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="249" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>八里區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="251" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>淡水區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="252" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>三芝區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="253" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>石門區</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="3" style="">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="260" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>宜蘭市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="261" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>頭城鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="262" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>礁溪鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="263" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>壯圍鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="264" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>員山鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="265" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>羅東鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="266" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>三星鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="267" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大同鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="268" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>五結鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="269" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>冬山鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="270" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>蘇澳鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="272" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>南澳鄉</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="4" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="320" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>中壢區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="324" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>平鎮區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="325" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>龍潭區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="326" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>楊梅區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="327" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新屋區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="328" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>觀音區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="330" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>桃園區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="333" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>龜山區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="334" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>八德區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="335" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大溪區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="336" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>復興區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="337" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大園區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="338" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>蘆竹區</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="5" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="300" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新竹市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="390" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>東區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="391" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>北區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="392" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>香山區</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="6" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="302" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>竹北市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="303" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>湖口鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="304" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新豐鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="305" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新埔鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="306" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>關西鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="307" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>芎林鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="308" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>寶山鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="310" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>竹東鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="311" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>五峰鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="312" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>橫山鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="313" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>尖石鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="314" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>北埔鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="315" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>峨眉鄉</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="7" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="350" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>竹南鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="351" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>頭份市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="352" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>三灣鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="353" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>南庄鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="354" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>獅潭鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="356" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>後龍鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="357" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>通霄鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="358" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>苑裡鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="360" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>苗栗市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="361" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>造橋鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="362" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>頭屋鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="363" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>公館鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="364" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大湖鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="365" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>泰安鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="366" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>銅鑼鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="367" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>三義鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="368" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>西湖鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="369" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>卓蘭鎮</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="8" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="400" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>中區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="401" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>東區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="402" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>南區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="403" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>西區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="404" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>北區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="406" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>北屯區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="407" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>西屯區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="408" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>南屯區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="411" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>太平區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="412" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大里區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="413" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>霧峰區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="414" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>烏日區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="420" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>豐原區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="421" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>后里區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="422" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>石岡區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="423" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>東勢區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="424" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>和平區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="426" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新社區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="427" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>潭子區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="428" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大雅區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="429" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>神岡區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="432" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大肚區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="433" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>沙鹿區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="434" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>龍井區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="435" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>梧棲區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="436" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>清水區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="437" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大甲區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="438" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>外埔區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="439" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大安區</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="9" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="500" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>彰化市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="502" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>芬園鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="503" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>花壇鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="504" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>秀水鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="505" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>鹿港鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="506" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>福興鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="507" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>線西鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="508" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>和美鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="509" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>伸港鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="510" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>員林市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="511" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>社頭鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="512" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>永靖鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="513" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>埔心鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="514" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>溪湖鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="515" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大村鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="516" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>埔鹽鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="520" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>田中鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="521" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>北斗鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="522" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>田尾鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="523" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>埤頭鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="524" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>溪州鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="525" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>竹塘鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="526" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>二林鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="527" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大城鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="528" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>芳苑鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="530" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>二水鄉</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="10" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="540" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>南投市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="541" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>中寮鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="542" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>草屯鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="544" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>國姓鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="545" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>埔里鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="546" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>仁愛鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="551" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>名間鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="552" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>集集鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="553" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>水里鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="555" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>魚池鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="556" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>信義鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="557" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>竹山鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="558" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>鹿谷鄉</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="11" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="630" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>斗南鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="631" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大埤鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="632" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>虎尾鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="633" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>土庫鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="634" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>褒忠鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="635" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>東勢鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="636" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>台西鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="637" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>崙背鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="638" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>麥寮鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="640" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>斗六市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="643" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>林內鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="646" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>古坑鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="647" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>莿桐鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="648" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>西螺鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="649" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>二崙鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="651" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>北港鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="652" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>水林鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="653" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>口湖鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="654" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>四湖鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="655" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>元長鄉</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="12" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="600" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>嘉義市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="690" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>東區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="691" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>西區</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="13" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="602" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>番路鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="603" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>梅山鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="604" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>竹崎鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="605" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>阿里山鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="606" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>中埔鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="607" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大埔鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="608" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>水上鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="611" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>鹿草鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="612" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>太保市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="613" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>朴子市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="614" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>東石鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="615" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>六腳鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="616" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新港鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="621" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>民雄鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="622" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大林鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="623" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>溪口鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="624" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>義竹鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="625" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>布袋鎮</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="14" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="700" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>中西區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="701" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>東區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="702" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>南區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="704" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>北區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="708" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>安平區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="709" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>安南區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="710" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>永康區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="711" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>歸仁區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="712" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新化區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="713" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>左鎮區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="714" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>玉井區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="715" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>楠西區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="716" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>南化區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="717" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>仁德區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="718" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>關廟區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="719" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>龍崎區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="720" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>官田區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="721" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>麻豆區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="722" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>佳里區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="723" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>西港區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="724" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>七股區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="725" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>將軍區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="726" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>學甲區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="727" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>北門區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="730" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新營區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="731" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>後壁區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="732" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>白河區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="733" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>東山區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="734" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>六甲區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="735" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>下營區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="736" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>柳營區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="737" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>鹽水區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="741" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>善化區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="742" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大內區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="743" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>山上區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="744" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新市區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="745" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>安定區</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="15" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="800" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新興區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="801" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>前金區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="802" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>苓雅區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="803" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>鹽埕區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="804" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>鼓山區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="805" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>旗津區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="806" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>前鎮區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="807" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>三民區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="811" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>楠梓區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="812" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>小港區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="813" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>左營區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="814" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>仁武區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="815" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大社區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="820" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>岡山區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="821" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>路竹區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="822" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>阿蓮區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="823" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>田寮區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="824" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>燕巢區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="825" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>橋頭區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="826" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>梓官區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="827" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>彌陀區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="828" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>永安區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="829" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>湖內區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="830" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>鳳山區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="831" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大寮區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="832" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>林園區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="833" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>鳥松區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="840" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大樹區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="842" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>旗山區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="843" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>美濃區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="844" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>六龜區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="845" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>內門區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="846" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>杉林區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="847" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>甲仙區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="848" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>桃源區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="849" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>那瑪夏區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="851" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>茂林區</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="852" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>茄萣區</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="16" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="880" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>馬公市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="881" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>西嶼鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="882" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>望安鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="883" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>七美鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="884" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>白沙鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="885" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>湖西鄉</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="17" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="900" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>屏東市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="901" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>三地門鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="902" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>霧台鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="903" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>瑪家鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="904" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>九如鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="905" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>里港鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="906" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>高樹鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="907" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>鹽埔鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="908" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>長治鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="909" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>麟洛鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="911" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>竹田鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="912" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>內埔鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="913" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>萬丹鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="920" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>潮州鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="921" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>泰武鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="922" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>來義鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="923" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>萬巒鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="924" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>崁頂鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="925" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新埤鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="926" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>南州鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="927" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>林邊鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="928" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>東港鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="929" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>琉球鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="931" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>佳冬鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="932" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新園鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="940" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>枋寮鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="941" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>枋山鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="942" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>春日鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="943" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>獅子鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="944" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>車城鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="945" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>牡丹鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="946" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>恆春鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="947" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>滿州鄉</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="18" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="950" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>台東市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="951" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>綠島鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="952" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>蘭嶼鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="953" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>延平鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="954" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>卑南鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="955" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>鹿野鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="956" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>關山鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="957" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>海端鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="958" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>池上鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="959" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>東河鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="961" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>成功鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="962" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>長濱鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="963" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>太麻里鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="964" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>金峰鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="965" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>大武鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="966" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>達仁鄉</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="19" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="970" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>花蓮市</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="971" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>新城鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="972" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>秀林鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="973" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>吉安鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="974" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>壽豐鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="975" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>鳳林鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="976" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>光復鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="977" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>豐濱鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="978" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>瑞穗鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="979" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>萬榮鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="981" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>玉里鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="982" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>卓溪鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="983" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>富里鄉</a></dd>
+                                                              </dl>
+                                                          <dl class="clearfix" data-cid="20" style="display:none">
+                                <dt>區域</dt>
+                                                                  <dd><a class="btn" data-zipcode="890" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>金沙鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="891" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>金湖鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="892" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>金寧鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="893" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>金城鎮</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="894" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>烈嶼鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="896" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>烏坵鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="209" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>南竿鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="210" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>北竿鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="211" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>莒光鄉</a></dd>
+                                                                  <dd><a class="btn" data-zipcode="212" tabindex="-1"><i class="fa   fa-circle-thin fa-fw fa-square-o"></i>東引鄉</a></dd>
+                                                              </dl>
+                                                      </div>
+                        </div>
+                      </div></div></div>
+                      
+                    </div>
+                    <!--選項標籤-->
+                    <div class="block-selected-tags  clearfix" rel="search_cur_condition"><div><b>宜蘭縣</b><a href="#" data-type="city" data-cid="3"><i class="fa  fa-close"></i></a></div></div>
+                    <!--選項標籤 end-->
+                  </div>
+                  <!--縣市區域 end-->
+                  <!--類型-->
+                  <div class="custom-search-content" title="types" style="display: none;">
+                    <dl class="clearfix">
+                                              <dd rel="sell_search"><a href="#" class="btn" data-usecode="1"><i class="fa   fa-circle-thin fa-fw"></i>住宅</a></dd>
+                                              <dd rel="sell_search"><a href="#" class="btn" data-usecode="2"><i class="fa   fa-circle-thin fa-fw"></i>商用</a></dd>
+                                              <dd rel="sell_search"><a href="#" class="btn" data-usecode="6"><i class="fa   fa-circle-thin fa-fw"></i>住辦</a></dd>
+                                              <dd rel="sell_search"><a href="#" class="btn" data-usecode="5"><i class="fa   fa-circle-thin fa-fw"></i>土地</a></dd>
+                                              <dd rel="sell_search"><a href="#" class="btn" data-usecode="3"><i class="fa   fa-circle-thin fa-fw"></i>車位</a></dd>
+                                              <dd rel="sell_search"><a href="#" class="btn" data-usecode="12"><i class="fa   fa-circle-thin fa-fw"></i>廠房</a></dd>
+                                                                    <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-usecode="7"><i class="fa   fa-circle-thin fa-fw"></i>整層住家</a></dd>
+                                              <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-usecode="8"><i class="fa   fa-circle-thin fa-fw"></i>獨立套房</a></dd>
+                                              <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-usecode="9"><i class="fa   fa-circle-thin fa-fw"></i>分租套房</a></dd>
+                                              <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-usecode="10"><i class="fa   fa-circle-thin fa-fw"></i>雅房</a></dd>
+                                              <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-usecode="11"><i class="fa   fa-circle-thin fa-fw"></i>店面</a></dd>
+                                              <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-usecode="6"><i class="fa   fa-circle-thin fa-fw"></i>住辦</a></dd>
+                                              <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-usecode="2"><i class="fa   fa-circle-thin fa-fw"></i>商用</a></dd>
+                                              <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-usecode="12"><i class="fa   fa-circle-thin fa-fw"></i>廠房</a></dd>
+                                              <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-usecode="3"><i class="fa   fa-circle-thin fa-fw"></i>車位</a></dd>
+                                              <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-usecode="5"><i class="fa   fa-circle-thin fa-fw"></i>土地</a></dd>
+                                                                    <dd rel="nc_search" style="display: none;"><a href="#" class="btn" data-usecode="1"><i class="fa  fa-circle-thin fa-fw"></i>新成屋</a></dd>
+                                              <dd rel="nc_search" style="display: none;"><a href="#" class="btn" data-usecode="2"><i class="fa  fa-circle-thin fa-fw"></i>預售屋</a></dd>
+                                          </dl>
+                    <!--選項標籤-->
+                    <div class="block-selected-tags  clearfix" rel="search_cur_condition"><div><b>宜蘭縣</b><a href="#" data-type="city" data-cid="3"><i class="fa  fa-close"></i></a></div></div>
+                    <!--選項標籤 end-->
+                  </div>
+                  <!--類型 end-->
+                  <!--售價-->
+                  <div class="custom-search-content" title="price" style="display: none;">
+                    <dl class="clearfix" id="search_listprice">
+                      <dd class="price" rel="sell_search"><a href="#" class="btn" data-price="input" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>
+                          <input class="form-control" name="priceMin" maxlength="7" type="text"> ~
+                          <input class="form-control" name="priceMax" maxlength="7" type="text"> 萬
+                        </a></dd>
+                                              <dd rel="sell_search"><a href="#" class="btn" data-price="_300" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>300萬以下</a></dd>
+                                              <dd rel="sell_search" style="display: none;"><a href="#" class="btn" data-price="_500" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>500萬以下</a></dd>
+                                              <dd rel="sell_search"><a href="#" class="btn" data-price="300_600" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>300~600萬</a></dd>
+                                              <dd rel="sell_search"><a href="#" class="btn" data-price="600_900" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>600~900萬</a></dd>
+                                              <dd rel="sell_search" style="display: none;"><a href="#" class="btn" data-price="500_1000" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>500~1000萬</a></dd>
+                                              <dd rel="sell_search"><a href="#" class="btn" data-price="900_1200" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>900~1200萬</a></dd>
+                                              <dd rel="sell_search" style="display: none;"><a href="#" class="btn" data-price="_1000" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>1000萬以下</a></dd>
+                                              <dd rel="sell_search"><a href="#" class="btn" data-price="1200_1500" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>1200~1500萬</a></dd>
+                                              <dd rel="sell_search" style="display: none;"><a href="#" class="btn" data-price="1000_1500" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>1000~1500萬</a></dd>
+                                              <dd rel="sell_search"><a href="#" class="btn" data-price="1500_" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>1500萬以上</a></dd>
+                                              <dd rel="sell_search" style="display: none;"><a href="#" class="btn" data-price="1500_2000" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>1500~2000萬</a></dd>
+                                              <dd rel="sell_search" style="display: none;"><a href="#" class="btn" data-price="2000_3000" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>2000~3000萬</a></dd>
+                                              <dd rel="sell_search" style="display: none;"><a href="#" class="btn" data-price="3000_" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>3000萬以上</a></dd>
+                                              <dd rel="sell_search" style="display: none;"><a href="#" class="btn" data-price="3000_4000" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>3000~4000萬</a></dd>
+                                              <dd rel="sell_search" style="display: none;"><a href="#" class="btn" data-price="4000_" rel="option-sell"><i class="fa  fa-circle-thin fa-fw"></i>4000萬以上</a></dd>
+                                                                    <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-price="0_5000" rel="option-rent"><i class="fa  fa-circle-thin fa-fw"></i>5000元以下</a></dd>
+                                              <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-price="5000_10000" rel="option-rent"><i class="fa  fa-circle-thin fa-fw"></i>5000~10000元</a></dd>
+                                              <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-price="10000_15000" rel="option-rent"><i class="fa  fa-circle-thin fa-fw"></i>10000~15000元</a></dd>
+                                              <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-price="15000_20000" rel="option-rent"><i class="fa  fa-circle-thin fa-fw"></i>15000~20000元</a></dd>
+                                              <dd rel="rent_search" style="display: none;"><a href="#" class="btn" data-price="20000_0" rel="option-rent"><i class="fa  fa-circle-thin fa-fw"></i>20000元以上</a></dd>
+                                                                    <dd rel="nc_search" style="display: none;"><a href="#" class="btn" data-price="0_15" rel="option-rent"><i class="fa  fa-circle-thin fa-fw"></i>15萬以下</a></dd>
+                                              <dd rel="nc_search" style="display: none;"><a href="#" class="btn" data-price="15_20" rel="option-rent"><i class="fa  fa-circle-thin fa-fw"></i>20-30萬</a></dd>
+                                              <dd rel="nc_search" style="display: none;"><a href="#" class="btn" data-price="20_30" rel="option-rent"><i class="fa  fa-circle-thin fa-fw"></i>20-30萬</a></dd>
+                                              <dd rel="nc_search" style="display: none;"><a href="#" class="btn" data-price="30_50" rel="option-rent"><i class="fa  fa-circle-thin fa-fw"></i>30-50萬</a></dd>
+                                              <dd rel="nc_search" style="display: none;"><a href="#" class="btn" data-price="50_80" rel="option-rent"><i class="fa  fa-circle-thin fa-fw"></i>50-80萬</a></dd>
+                                              <dd rel="nc_search" style="display: none;"><a href="#" class="btn" data-price="80_0" rel="option-rent"><i class="fa  fa-circle-thin fa-fw"></i>80萬以上</a></dd>
+                                          </dl>
+                    <!--選項標籤-->
+                    <div class="block-selected-tags  clearfix" rel="search_cur_condition"><div><b>宜蘭縣</b><a href="#" data-type="city" data-cid="3"><i class="fa  fa-close"></i></a></div></div>
+                    <!--選項標籤 end-->
+                  </div>
+                  <!--售價 end-->
+                </div>
+              </div>
+              <div class="form-group form-inline" id="search_other">
+                <ul class="search-type">
+                  <li style="display: none;"><a href="https://www.rakuya.com.tw/search/sell_search/index?ds=mrt" data-sell="https://www.rakuya.com.tw/search/sell_search/index?ds=mrt" data-rent="https://www.rakuya.com.tw/search/rent_search/index?ds=mrt" data-nc="https://www.rakuya.com.tw/search/nc_search/index?ds=mrt" onclick="RKY.GA.event('首頁行為', '首頁.搜尋.捷運');"><i class="fa fa-subway"></i>捷運搜尋</a></li>
+                  <li style="display: none;"><a href="https://www.rakuya.com.tw/search/sell_search/index?ds=school" data-sell="https://www.rakuya.com.tw/search/sell_search/index?ds=school" data-rent="https://www.rakuya.com.tw/search/rent_search/index?ds=school" data-nc="https://www.rakuya.com.tw/search/nc_search/index?ds=school" onclick="RKY.GA.event('首頁行為', '首頁.搜尋.學校');"><i class="fa fa-graduation-cap"></i>學校搜尋</a></li>
+                  <li rel="sell_rent" style="display: none;"><a href="https://www.rakuya.com.tw/search/sell_search/index?ds=community" data-sell="https://www.rakuya.com.tw/search/sell_search/index?ds=community" data-rent="https://www.rakuya.com.tw/search/rent_search/index?ds=community" onclick="RKY.GA.event('首頁行為', '首頁.搜尋.社區');"><i class="fa fa-building"></i>社區搜尋</a></li>
+                  <li rel="sell_rent" style="display: none;"><a href="https://www.rakuya.com.tw/search/sell_search/index?ds=shopping" data-sell="https://www.rakuya.com.tw/search/sell_search/index?ds=shopping" data-rent="https://www.rakuya.com.tw/search/rent_search/index?ds=shopping" onclick="RKY.GA.event('首頁行為', '首頁.搜尋.商圈');"><i class="fa fa-shopping-bag"></i>商圈搜尋</a></li>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </div>
+								<br>
+								<ul class="actions">
+									<li><a href="#one" class="button scrolly">Get Started</a></li>
+								</ul>
+
+						</div>
+    				</div>
+    				<div class="col">
+    				</div>
+  				</div>
+  			</div>
+		</section>
+				<!------------------------------------------------------------------->
+				
+
+		<!-- One -->
+			<section id="one" class="wrapper">
+				<div class="inner flex flex-3">
+					<div class="flex-item left">
+						<div>
+							<h3>Magna ultricies</h3>
+							<p>Morbi in sem quis dui plalorem ipsum<br /> euismod in, pharetra sed ultricies.</p>
+						</div>
+						<div>
+							<h3>Ipsum adipiscing lorem</h3>
+							<p>Tristique yonve cursus jam nulla quam<br /> loreipsu gravida adipiscing lorem</p>
+						</div>
+					</div>
+					<div class="flex-item image fit round">
+						<img src="images/pic01.jpg" alt="" />
+					</div>
+					<div class="flex-item right">
+						<div>
+							<h3>Tempus nullam</h3>
+							<p>Sed adipiscing ornare risus. Morbi estes<br /> blandit sit et amet, sagittis magna.</p>
+						</div>
+						<div>
+							<h3>Suscipit nibh dolore</h3>
+							<p>Pellentesque egestas sem. Suspendisse<br /> modo ullamcorper feugiat lorem.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style1 special">
+				<div class="inner">
+					<h2>Feugiat lorem</h2>
+					<figure>
+					    <blockquote>
+					        "Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra<br /> magna etiam lorem ultricies in diam. Sed arcu cras consequat."
+					    </blockquote>
+					    <footer>
+					        <cite class="author">Jane Anderson</cite>
+					        <cite class="company">CEO, Untitled</cite>
+					    </footer>
+					</figure>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper">
+				<div class="inner flex flex-3">
+					<div class="flex-item box">
+						<div class="image fit">
+							<img src="images/pic02.jpg" alt="" />
+						</div>
+						<div class="content">
+							<h3>Consequat</h3>
+							<p>Placerat ornare. Pellentesque od sed euismod in, pharetra ltricies edarcu cas consequat.</p>
+						</div>
+					</div>
+					<div class="flex-item box">
+						<div class="image fit">
+							<img src="images/pic03.jpg" alt="" />
+						</div>
+						<div class="content">
+							<h3>Adipiscing</h3>
+							<p>Morbi in sem quis dui placerat Pellentesque odio nisi, euismod pharetra lorem ipsum.</p>
+						</div>
+					</div>
+					<div class="flex-item box">
+						<div class="image fit">
+							<img src="images/pic04.jpg" alt="" />
+						</div>
+						<div class="content">
+							<h3>Malesuada</h3>
+							<p>Nam dui mi, tincidunt quis, accu an porttitor, facilisis luctus que metus vulputate sem magna.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<h2>Get In Touch</h2>
+					<ul class="actions">
+						<li><span class="icon fa-phone"></span> <a href="#">(000) 000-0000</a></li>
+						<li><span class="icon fa-envelope"></span> <a href="#">information@untitled.tld</a></li>
+						<li><span class="icon fa-map-marker"></span> 123 Somewhere Road, Nashville, TN 00000</li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Untitled. Design <a href="https://templated.co">TEMPLATED</a>. Images <a href="https://unsplash.com">Unsplash</a>.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
